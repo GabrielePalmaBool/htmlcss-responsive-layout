@@ -9,3 +9,62 @@
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: rgb(0, 132, 253);
+}
+/*************************************************
+    Header
+ *************************************************/
+
+ #Container_head {
+    margin: auto;
+    width: 90%;
+ }
+
+
+ #Container_head li {
+    display: inline-block;
+    color: white;
+ }
+
+ #Container_head li .logo {
+    height: 50px;
+	line-height: 100px;
+	vertical-align: middle;
+ }
+  /*  */
+ #Container_head li i {
+    margin-left: 300px;
+ }
+
+ #Container_head li span, a {
+    display: none;
+ }
+
+
+ /************************************************
+    PARTE RESPONSIVE
+ ************************************************/
+
+ /* Versione Desktop */
+ @media screen and (min-width: 1500px) {
+    
+    #Container_head {
+        margin: auto;
+        width: 50%;
+     }
+    
+    #Container_head li span, a {
+        display: inline-block;
+     }
+    
+     #Container_head li i {
+        display: none;
+     }
+    
+}
