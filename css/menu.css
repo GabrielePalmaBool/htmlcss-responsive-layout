@@ -12,6 +12,7 @@
 
 ul {
     list-style-type: none;
+    width: 100%;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
 
  #Container_head {
     margin: auto;
-    width: 90%;
+    width: 80%;
  }
 
 
@@ -39,7 +40,7 @@ header {
  }
   /*  */
  #Container_head li i {
-    margin-left: 300px;
+    margin-left: 260px;
  }
 
  #Container_head li span, a {
@@ -51,20 +52,57 @@ header {
     PARTE RESPONSIVE
  ************************************************/
 
+  /* Versione tablet */
+  @media screen and (min-width: 768px) {
+    
+   /*************************************************
+    Header
+   *************************************************/
+    #Container_head {
+        margin: auto;
+        width: 80%;
+     }
+     #Container_head li i {
+      margin-left: 490px;
+   }
+}
+
  /* Versione Desktop */
  @media screen and (min-width: 1500px) {
     
+   /*************************************************
+    Header
+   *************************************************/
     #Container_head {
         margin: auto;
-        width: 50%;
+        width: 70%;
+        padding: 10px 0px 10px 0px;
      }
     
     #Container_head li span, a {
         display: inline-block;
+        margin-left: 50px;
      }
     
      #Container_head li i {
         display: none;
      }
-    
+
+     #Container_head .left{
+      margin-left: 240px;
+   }
+
+   #Container_head a{
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+      background-color: white;
+      padding: 10px 10px 10px 10px;
+      border-radius: 50px;
+  }
+
+  #Container_head a:active {
+   color: white;
+   }
+
 }
