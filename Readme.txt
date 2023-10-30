@@ -1,0 +1,1 @@
+Esercizio sulla creazione di una pagina html responsive (mobile first) con modifiche di layout su tablet(width:768px in poi) e desktop (width: 1500px in poi)
