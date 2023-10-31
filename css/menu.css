@@ -51,6 +51,20 @@ ul {
     display: none;
  }
 
+ #Container_head a{
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+   background-color: white;
+   padding: 10px 20px 10px 20px;
+   border-radius: 20px;
+   font-weight: bold;
+}
+
+#Container_head  a:active {
+   color: white;
+   }
+
  /*************************************************
     main
  *************************************************/
@@ -79,6 +93,10 @@ ul {
    max-width: 280px;
    font-weight: bold;
    margin: 20px 0px 20px 50px;
+}
+
+#Container_main .Button_link {
+   margin: 40px 0px 40px 20px;
 }
 
 #Container_main  a{
@@ -166,8 +184,8 @@ color: black;
       margin: 10px;
    }
 
-   #Container_main #demo {
-      width: calc(((100% / 3) * 2) - 20px);
+   #Container_main .doppio {
+      width: calc(((100% / 3) * 2) - 20px); 
    }
 
    #Container_main .col img {
@@ -175,16 +193,30 @@ color: black;
       margin: 35px 0px 0px 45px;
    }
 
-   #Container_main .col h2 {
+   #Container_main .standard h2 {
       color: rgb(0, 132, 253);
-      display: inline-block;
       margin: 20px 0px 20px 20px;
-      max-width: 90%;
+      
    }
 
-   #Container_main .col p {
+   #Container_main .standard p {
       color: rgb(90, 110, 127);
       font-weight: bold;
+      text-align: center;
+      max-width: 90%;
+      margin: 0px 0px 80px 20px;
+   }
+
+   #Container_main .doppio h2 {
+      color: rgb(0, 132, 253);
+      margin: 20px 0px 20px 20px;
+      text-align: left;
+   }
+
+   #Container_main .doppio p {
+      color: rgb(90, 110, 127);
+      font-weight: bold;
+      text-align: left;
       max-width: 90%;
       margin: 0px 0px 80px 20px;
    }
@@ -206,7 +238,7 @@ color: black;
 
    /* Gestione icone grandi */
    #Container_main .fa-solid {
-      font-size: 100px;
+      font-size: 75px;
       max-width: 90%;
       color: rgb(0, 132, 253);
    }
@@ -216,7 +248,7 @@ color: black;
    }
 
    #Container_main .fa-laptop-code {
-      margin: 50px 0px 0px 40px; 
+      margin: 50px 0px 0px 50px; 
    }
 
    #Container_main .fa-compass-drafting {
@@ -224,7 +256,7 @@ color: black;
    }
 
    #Container_main .fa-bullhorn {
-      margin: 50px 0px 0px 50px; 
+      margin: 50px 0px 0px 70px; 
    }
    
    
@@ -236,15 +268,10 @@ color: black;
    /*************************************************
     Header
    *************************************************/
-    #Container_head {
-        margin: 0 auto;
-        max-width: 1200px;
-        padding: 10px 0px 10px 0px;
-     }
-    
+  
     #Container_head li .tag_header, span {
         display: inline-block;
-        margin-left: 50px;
+        margin-left: 30px;
      }
     
      #Container_head li i {
@@ -252,7 +279,58 @@ color: black;
      }
 
      #Container_head .left{
-      margin-left: 390px;
+      margin-left: 540px;
    }
+
+     /*************************************************
+    main
+   *************************************************/
+   
+
+   #Container_main .col img {
+      width: 40%;
+      margin: -2750px 0px -100px 500px;
+   }
+
+   #Container_main .doppio p {
+      max-width: 50%;
+   }
+
+   #Container_main a{
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      background-color: rgb(0, 132, 253);
+      padding: 10px 60px 10px 60px;
+      border-radius: 20px;
+      font-weight: bold;
+   }
+   
+   #Container_head a:active {
+   color: white;
+   }
+   
+   /* Gestione icone grandi */
+   #Container_main .fa-solid {
+      font-size: 100px;
+      color: rgb(0, 132, 253);
+   }
+   
+   #Container_main .fa-file-code {
+      margin: 50px 0px 0px 170px; 
+   }
+   
+   #Container_main .fa-laptop-code {
+      margin: 50px 0px 0px 140px; 
+   }
+   
+   #Container_main .fa-compass-drafting {
+      margin: 50px 0px 0px 160px; 
+   }
+   
+   #Container_main .fa-bullhorn {
+      margin: 50px 0px 0px 160px; 
+   }
+   
 
 }
