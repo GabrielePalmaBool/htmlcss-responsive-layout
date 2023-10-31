@@ -27,7 +27,7 @@ ul {
 
  #Container_head {
     margin: 0 auto;
-    max-width: 380px;
+    width: 380px;
  }
 
 
@@ -42,7 +42,7 @@ ul {
 	line-height: 100px;
 	vertical-align: middle;
  }
-  /*  */
+
  #Container_head li i {
     margin-left: 255px;
  }
@@ -51,7 +51,7 @@ ul {
     display: none;
  }
 
- #Container_head a{
+ #Container_head .tag_header{
    color: black;
    text-decoration: none;
    cursor: pointer;
@@ -69,37 +69,37 @@ ul {
     main
  *************************************************/
 
- #Container_main {
+ .Container_main {
    margin: 0 auto;
    width: 380px;
    padding-top: 50px;
 }
 
-#Container_main .col {
+.Container_main .col {
    background-color: rgb(181, 221, 255);
    border-radius: 50px;
    margin-bottom: 50px;
    padding: 10px;
 }
 
-#Container_main .col h2 {
+.Container_main .col h2 {
    color: rgb(0, 132, 253);
    padding-top: 20px;
    text-align: center;
 }
 
-#Container_main .col p {
+.Container_main .col p {
    color: rgb(90, 110, 127);
    max-width: 280px;
    font-weight: bold;
    margin: 20px 0px 20px 50px;
 }
 
-#Container_main .Button_link {
+.Container_main .Button_link {
    margin: 40px 0px 40px 20px;
 }
 
-#Container_main  a{
+.Container_main .tag_main{
    color: white;
    text-decoration: none;
    cursor: pointer;
@@ -110,43 +110,94 @@ ul {
    font-weight: bold;
 }
 
-#Container_main  a:active {
+.Container_main .tag_main:active {
 color: black;
 }
 
-#Container_main .col img {
+.Container_main .col img {
    width: 100%;
    margin-bottom: -6px;
 }
 
 /* Gestione icone grandi */
-#Container_main .fa-apple {
+.Container_main .fa-apple {
    margin: 0px 10px 0px 0px
 }
  
-#Container_main .fa-solid {
+.Container_main .standard .fa-solid {
    font-size: 100px;
-   margin: 50px 0px 0px 140px; 
    color: rgb(0, 132, 253);
 }
 
-#Container_main .fa-file-code {
+.Container_main .fa-file-code {
     margin: 50px 0px 0px 140px; 
 }
 
-#Container_main .fa-laptop-code {
+.Container_main .fa-laptop-code {
    margin: 50px 0px 0px 120px; 
 }
 
-#Container_main .fa-compass-drafting {
+.Container_main .fa-compass-drafting {
    margin: 50px 0px 0px 140px; 
 }
 
-#Container_main .fa-bullhorn {
+.Container_main .fa-bullhorn {
    margin: 50px 0px 0px 140px; 
 }
 
+/*------------------------------------ seconda sezione---------------------------------------- */
+.background {
+   background-color: rgb(151, 146, 228);
+   padding-bottom: 30px;
+}
 
+.Container_main .col2 img {
+   width: 100%;
+}
+
+.Container_main .col2 h2 {
+   color: white;
+   padding-top: 20px;
+   text-align: center;
+}
+
+.Container_main .col2 p {
+   color: white;
+   margin: 20px 0px 20px 50px;
+}
+
+.Container_main .Button_link2 {
+   margin: 40px 0px 40px 20px;
+}
+
+.Container_main .tag_main2{
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+   background-color:rgb(151, 146, 228);
+   margin: 50px 0px 50px 160px;
+   padding: 5px 10px 5px 10px;
+   border-radius: 100%;
+   font-weight: bold;
+}
+
+.Container_main .tag_main2:active {
+color: white;
+}
+
+.Container_main .white{
+   background-color: white;
+   border-radius: 50px;
+   padding-bottom: 30px;
+}
+
+.Container_main .white h2 {
+   color: black;
+}
+
+.Container_main .white p {
+   color: black;
+}
  /************************************************
     PARTE RESPONSIVE
  ************************************************/
@@ -159,47 +210,48 @@ color: black;
    *************************************************/
     #Container_head {
         margin: 0 auto;
-        max-width: 90%;
+        width: 90%;
      }
-     #Container_head li i {
+
+   #Container_head li i {
       margin-left: 540px;
    }
    /*************************************************
     main
    *************************************************/
    
-   #Container_main {
+   .Container_main {
       margin: 0 auto;
       width: 90%;
       padding-top: 50px;
    }
    
-   #Container_main .row{
+   .Container_main .row{
       display: flex;
       flex-wrap: wrap;
    }
 
-   #Container_main .col {
+   .Container_main .col {
       width: calc((100% / 3) - 20px) ;
       margin: 10px;
    }
 
-   #Container_main .doppio {
+   .Container_main .doppio {
       width: calc(((100% / 3) * 2) - 20px); 
    }
 
-   #Container_main .col img {
+   .Container_main .col img {
       width: 50%;
       margin: 35px 0px -16px 45px;
    }
 
-   #Container_main .standard h2 {
+   .Container_main .standard h2 {
       color: rgb(0, 132, 253);
       margin: 20px 0px 20px 20px;
       
    }
 
-   #Container_main .standard p {
+   .Container_main .standard p {
       color: rgb(90, 110, 127);
       font-weight: bold;
       text-align: center;
@@ -207,13 +259,13 @@ color: black;
       margin: 0px 0px 80px 20px;
    }
 
-   #Container_main .doppio h2 {
+   .Container_main .doppio h2 {
       color: rgb(0, 132, 253);
       margin: 20px 0px 20px 20px;
       text-align: left;
    }
 
-   #Container_main .doppio p {
+   .Container_main .doppio p {
       color: rgb(90, 110, 127);
       font-weight: bold;
       text-align: left;
@@ -221,7 +273,7 @@ color: black;
       margin: 0px 0px 80px 20px;
    }
 
-   #Container_main a{
+   .Container_main a{
       color: white;
       text-decoration: none;
       cursor: pointer;
@@ -232,30 +284,30 @@ color: black;
       font-weight: bold;
   }
 
-  #Container_head a:active {
+  .Container_main a:active {
    color: white;
    }
 
    /* Gestione icone grandi */
-   #Container_main .fa-solid {
+   .Container_main .fa-solid {
       font-size: 75px;
       max-width: 90%;
       color: rgb(0, 132, 253);
    }
 
-   #Container_main .fa-file-code {
+   .Container_main .fa-file-code {
       margin: 50px 0px 0px 70px; 
    }
 
-   #Container_main .fa-laptop-code {
+   .Container_main .fa-laptop-code {
       margin: 50px 0px 0px 50px; 
    }
 
-   #Container_main .fa-compass-drafting {
+   .Container_main .fa-compass-drafting {
       margin: 50px 0px 0px 50px; 
    }
 
-   #Container_main .fa-bullhorn {
+   .Container_main .fa-bullhorn {
       margin: 50px 0px 0px 70px; 
    }
    
@@ -287,16 +339,16 @@ color: black;
    *************************************************/
    
 
-   #Container_main .col img {
+   .Container_main .col img {
       width: 40%;
       margin: -2750px 0px -100px 500px;
    }
 
-   #Container_main .doppio p {
+   .Container_main .doppio p {
       max-width: 50%;
    }
 
-   #Container_main a{
+   .Container_main a{
       color: white;
       text-decoration: none;
       cursor: pointer;
@@ -306,29 +358,29 @@ color: black;
       font-weight: bold;
    }
    
-   #Container_head a:active {
+   .Container_main a:active {
    color: white;
    }
    
    /* Gestione icone grandi */
-   #Container_main .fa-solid {
+   .Container_main .fa-solid {
       font-size: 100px;
       color: rgb(0, 132, 253);
    }
    
-   #Container_main .fa-file-code {
+   .Container_main .fa-file-code {
       margin: 50px 0px 0px 170px; 
    }
    
-   #Container_main .fa-laptop-code {
+   .Container_main .fa-laptop-code {
       margin: 50px 0px 0px 140px; 
    }
    
-   #Container_main .fa-compass-drafting {
+   .Container_main .fa-compass-drafting {
       margin: 50px 0px 0px 160px; 
    }
    
-   #Container_main .fa-bullhorn {
+   .Container_main .fa-bullhorn {
       margin: 50px 0px 0px 160px; 
    }
    
