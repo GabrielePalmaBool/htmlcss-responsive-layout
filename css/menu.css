@@ -288,8 +288,13 @@ color: white;
    color: white;
    }
 
+   .Container_main .Button_link2 {
+      margin: 40px 0px 40px 175px;
+   }
+   
+
    /* Gestione icone grandi */
-   .Container_main .fa-solid {
+   .Container_main .standard .fa-solid {
       font-size: 75px;
       max-width: 90%;
       color: rgb(0, 132, 253);
@@ -334,7 +339,7 @@ color: white;
       margin-left: 540px;
    }
 
-     /*************************************************
+   /*************************************************
     main
    *************************************************/
    
@@ -361,9 +366,39 @@ color: white;
    .Container_main a:active {
    color: white;
    }
+
+   /*------------------- Seconda sezione---------------- */
+  
+   .Container_main .col2 {
+      width: 60%; 
+   }
+
+   .Container_main .white {
+      width: 30%; 
+      margin: 200px 0px 0px 125px;
+   }
+
+   .Container_main .col2 img {
+      max-width: 100%;
+   }
+
+   .Container_main .col2 h2 {
+      text-align: left;
+      padding-top: 20px;
+      margin-left: 50px;
+   }
+
+   .Container_main .white p {
+      text-align: center;
+      margin: 10px 0px 10px 0px;
+   }
+
+   .Container_main .Button_link2 {
+      margin: 40px 0px 40px 35px;
+   }   
    
    /* Gestione icone grandi */
-   .Container_main .fa-solid {
+   .Container_main .standard .fa-solid {
       font-size: 100px;
       color: rgb(0, 132, 253);
    }
