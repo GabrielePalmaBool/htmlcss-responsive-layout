@@ -65,22 +65,43 @@ ul {
    background-color: rgb(181, 221, 255);
    width: 100%;
    border-radius: 50px;
+   margin-bottom: 50px;
 }
 
 #Container_main .col h2 {
    text-align: center;
    color: rgb(0, 132, 253);
-   margin-top: 50px;
+   display: inline-block;
+   margin: 50px 0px 50px 50px;
 }
 
 #Container_main .col p {
    color: rgb(90, 110, 127);
    max-width: 280px;
+   font-weight: bold;
    margin: 20px 0px 20px 50px;
+}
+
+#Container_main  a{
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+   background-color: rgb(0, 132, 253);
+   margin: 50px 0px 50px 50px;
+   padding: 10px 60px 10px 60px;
+   border-radius: 20px;
+   font-weight: bold;
+}
+#Container_main .fa-apple {
+   margin: 0px 10px 0px 0px
+}
+#Container_main  a:active {
+color: black;
 }
 
 #Container_main .col img {
    width: 100%;
+   margin-bottom: -6px;
 }
 
  /************************************************
