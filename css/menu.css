@@ -47,7 +47,7 @@ ul {
     margin-left: 255px;
  }
 
- #Container_head li span, a {
+ #Container_head .tag_header, span {
     display: none;
  }
 
@@ -65,12 +65,13 @@ ul {
    background-color: rgb(181, 221, 255);
    border-radius: 50px;
    margin-bottom: 50px;
+   padding: 10px;
 }
 
 #Container_main .col h2 {
    color: rgb(0, 132, 253);
-   display: inline-block;
-   margin: 50px 0px 50px 50px;
+   padding-top: 20px;
+   text-align: center;
 }
 
 #Container_main .col p {
@@ -100,23 +101,40 @@ color: black;
    margin-bottom: -6px;
 }
 
-/* Gestione icone */
+/* Gestione icone grandi */
 #Container_main .fa-apple {
    margin: 0px 10px 0px 0px
 }
-
-#Container_main .fa-file-code {
-   margin: 50px 0px 0px 143px;
-   font-size: 125px;
+ 
+#Container_main .fa-solid {
+   font-size: 100px;
+   margin: 50px 0px 0px 140px; 
    color: rgb(0, 132, 253);
 }
+
+#Container_main .fa-file-code {
+    margin: 50px 0px 0px 140px; 
+}
+
+#Container_main .fa-laptop-code {
+   margin: 50px 0px 0px 120px; 
+}
+
+#Container_main .fa-compass-drafting {
+   margin: 50px 0px 0px 140px; 
+}
+
+#Container_main .fa-bullhorn {
+   margin: 50px 0px 0px 140px; 
+}
+
 
  /************************************************
     PARTE RESPONSIVE
  ************************************************/
 
   /* Versione tablet */
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 767px) {
     
    /*************************************************
     Header
@@ -154,7 +172,7 @@ color: black;
 
    #Container_main .col img {
       width: 50%;
-      margin: 250px 0px 0px 50px;
+      margin: 35px 0px 0px 45px;
    }
 
    #Container_main .col h2 {
@@ -168,28 +186,48 @@ color: black;
       color: rgb(90, 110, 127);
       font-weight: bold;
       max-width: 90%;
-      margin: 0px 0px 20px 20px;
+      margin: 0px 0px 80px 20px;
    }
 
-   #Container_head a{
-      color: black;
+   #Container_main a{
+      color: white;
       text-decoration: none;
       cursor: pointer;
-      background-color: white;
-      padding: 10px 10px 10px 10px;
-      border-radius: 50px;
+      background-color: rgb(0, 132, 253);
+      margin-left: 20px;
+      padding: 10px 60px 10px 60px;
+      border-radius: 20px;
+      font-weight: bold;
   }
 
   #Container_head a:active {
    color: white;
    }
 
-   #Container_main .fa-file-code {
-      margin: 50px 0px 0px 70px; 
+   /* Gestione icone grandi */
+   #Container_main .fa-solid {
       font-size: 100px;
       max-width: 90%;
       color: rgb(0, 132, 253);
    }
+
+   #Container_main .fa-file-code {
+      margin: 50px 0px 0px 70px; 
+   }
+
+   #Container_main .fa-laptop-code {
+      margin: 50px 0px 0px 40px; 
+   }
+
+   #Container_main .fa-compass-drafting {
+      margin: 50px 0px 0px 50px; 
+   }
+
+   #Container_main .fa-bullhorn {
+      margin: 50px 0px 0px 50px; 
+   }
+   
+   
 }
 
  /* Versione Desktop */
@@ -204,7 +242,7 @@ color: black;
         padding: 10px 0px 10px 0px;
      }
     
-    #Container_head li span, a {
+    #Container_head li .tag_header, span {
         display: inline-block;
         margin-left: 50px;
      }
