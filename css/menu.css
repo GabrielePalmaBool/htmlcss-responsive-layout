@@ -346,7 +346,6 @@ color: black;
       margin: 40px 0px 40px 175px;
    }
    
-
    /* Gestione icone grandi */
    .Container_main .standard .fa-solid {
       font-size: 75px;
@@ -368,6 +367,27 @@ color: black;
 
    .Container_main .fa-bullhorn {
       margin: 50px 0px 0px 70px; 
+   }
+
+
+/*------------------- Terza sezione---------------- */
+   
+   
+   .Container_main .purple .profile {
+      width: 170px;
+      height: 170px;
+      margin: 10px 0px 10px 10px;
+   }
+
+   .Container_main .purple  p {
+      max-width: 70%;
+      margin: -140px 0px 25px 240px;
+   }
+   
+   .Container_main .purple h2 {
+      color:white;
+      font-size: 25px;
+      margin: 10px 0px 20px 0px;
    }
    
    
