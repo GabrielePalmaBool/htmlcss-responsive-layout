@@ -17,6 +17,8 @@ ul {
 
 h2 {
    font-size: 40px;
+   color: white;
+   text-align: center;
 }
 
 
@@ -250,6 +252,45 @@ color: black;
    color:white;
    font-size: 25px;
    margin: 10px 0px 20px 0px;
+}
+
+/*------------------------------------ quarta sezione---------------------------------------- */
+
+.Container_main .col4{
+   background-color: white;
+   border-radius: 20px;
+   margin: 50px 0px 50px 0px;
+   padding : 40px;
+}
+
+.Container_main .col4 h2, h3 {
+   color:rgb(151, 146, 228);
+   text-align: left;
+}
+
+.Container_main .col4 p {
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 30px;
+   color: rgb(90, 110, 127);
+}
+
+.Container_main .Button_link3 {
+   margin-top: 50px;
+}
+
+.Container_main .tag_main3{
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+   background-color:rgb(151, 146, 228);
+   padding: 10px 50px 10px 50px;
+   border-radius: 30px;
+   font-weight: bold;
+}
+
+.Container_main .tag_main3:active {
+   color: black;
 }
 
  /************************************************
