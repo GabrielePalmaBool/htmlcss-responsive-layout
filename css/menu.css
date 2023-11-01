@@ -430,7 +430,18 @@ color: black;
       font-size: 25px;
       margin: 10px 0px 20px 0px;
    }
-   
+
+
+/*------------------- quarta sezione---------------- */
+
+.Container_main .title_col4{
+   margin-left: 140px;
+}
+.Container_main .col4 {
+   width: calc((100% / 2) - 20px) ;
+   margin: 10px;
+}
+
    
 }
 
@@ -533,6 +544,18 @@ color: black;
    .Container_main .fa-bullhorn {
       margin: 50px 0px 0px 160px; 
    }
+
+/*------------------- quarta sezione---------------- */
+
+.Container_main .title_col4{
+   margin-left: 465px;
+}
+
+.Container_main .col4 {
+   width: calc((100% / 3) - 20px) ;
+   margin: 10px;
+}
+
    
 
 }
